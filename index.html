@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="css/project.css" />
   <script src='https://code.jquery.com/jquery-1.12.4.min.js'></script>
   <script src="js/custom.js"></script>
+  <!-- <script src="js/backbtn.js"></script> -->
 </head>
 
 <body>
@@ -728,7 +729,23 @@
                 </div>
               </div>
             </div>
-            <div class="popupzone "></div>
+            <div class="popupzone">
+              <div class="mar">
+                <h4 class="hidden">팝업존</h4>
+                <div class="js_slide type_03">
+                  <div class="control">
+                    <ul>
+                      <li><a href="#" class="on">1번</a></li>
+                      <li><a href="#" class="on">2번</a></li>
+                    </ul>
+                    <a href="#" class="btn_play"><span>재생</span></a>
+                    <a href="#" class="btn_stop"><span>정지</span></a>
+                  </div>
+                  <div class="move"></div>
+                </div>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -827,13 +844,63 @@
             <a href="#" class="control next">다음</a>
             <div class="move">
               <ul>
-                <li>
+                <li class="bn01">
                   <div class="inner">
                     <a href="#" class="on">
-                      <span class="title">
+                      <div class="title">
                         <p>인쇄</p>
                         <span>자세히보기</span>
-                      </span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="bn02">
+                  <div class="inner">
+                    <a href="#" class="on">
+                      <div class="title">
+                        <p>인쇄</p>
+                        <span>자세히보기</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="bn03">
+                  <div class="inner">
+                    <a href="#" class="on">
+                      <div class="title">
+                        <p>인쇄</p>
+                        <span>자세히보기</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="bn04">
+                  <div class="inner">
+                    <a href="#" class="on">
+                      <div class="title">
+                        <p>인쇄</p>
+                        <span>자세히보기</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="bn05">
+                  <div class="inner">
+                    <a href="#" class="on">
+                      <div class="title">
+                        <p>인쇄</p>
+                        <span>자세히보기</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="bn06">
+                  <div class="inner">
+                    <a href="#" class="on">
+                      <div class="title">
+                        <p>인쇄</p>
+                        <span>자세히보기</span>
+                      </div>
                     </a>
                   </div>
                 </li>
@@ -933,22 +1000,27 @@
         </ul>
         <div class="site_box">
           <div class="webwatch_wrap">
+            <a href="#" title="새창이동,웹와치" target="_blank" class="webwatch">
+              <img src="./img/wa_mark.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" title="국가 공인 인증기관 : 웹와치">
+            </a>
             <ul class="sns_link">
-              <li class="fb"><a href="#"><img src="./img/facebook.png" alt=""></a></li>
-              <li class="tw"><a href="#"><img src="./img/twitter.png" alt=""></a></li>
-              <li class="bl"><a href="#"><img src="./img/blog.png" alt=""></a></li>
-              <li class="yt"><a href="#"><img src="./img/youtube.png" alt=""></a></li>
-              <li class="insta"><a href="#"><img src="./img/insta.png" alt=""></a></li>
+              <li class="fb"><a href="#" target="_blank"></a></li>
+              <li class="tw"><a href="#"></a></li>
+              <li class="bl"><a href="#"></a></li>
+              <li class="yt"><a href="#"></a></li>
+              <li class="insta"><a href="#"></a></li>
             </ul>
           </div>
           <div class="relate_site">
-            <a href="#"></a>
+            <a href="#">패밀리사이트
+              <em class="hidden">열기</em>
+            </a>
             <ul>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+              <li><a href="#" target="_blank" title="새창이동, 한국조폐공사 홈페이지">한국조폐공사</a></li>
+              <li><a href="#" target="_blank" title="새창이동, 한국조폐공사 쇼핑몰">한국조폐공사쇼핑몰</a></li>
+              <li><a href="#" target="_blank" title="새창이동, 한국은행 홈페이지">한국은행</a></li>
+              <li><a href="#" target="_blank" title="새창이동, 우표정보마당 홈페이지">우표정보마당</a></li>
+              <li><a href="#" target="_blank" title="새창이동, 조폐동우회 홈페이지">조폐동우회</a></li>
             </ul>
           </div>
         </div>
@@ -960,7 +1032,7 @@
           <p class="copy">Copyrightⓒ KOMSCO. All Rights Reserved.</p>
         </address>
       </div>
-      <a href="#top" id="back-to-top"><img src="/img/top_btn.png" alt="탑버튼"></a>
+      <a href="#top" id="back-to-top">top</a>
     </footer>
   </div>
   <!-- //#wrap -->
